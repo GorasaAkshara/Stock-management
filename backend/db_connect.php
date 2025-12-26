@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'stockdb';
-$user = 'postgres';
-$password = '05062005';
+$dbname = 'Database_name';
+$user = 'postgres'; //default username
+$password = 'your_password';
 
 try {
     $dsn = "pgsql:host=$host;port=5432;dbname=$dbname;";
